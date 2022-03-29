@@ -26,3 +26,13 @@ async function requestAccounts() {
 
     return accounts && accounts.length;
 }
+
+async function run() {
+    if (!await hasAccounts() && !await requestAccounts()) {
+        throw new Error("Please let me take your money");
+    }
+
+    const hello = new ethers.Contract("", [], new ethers.providers.Web3Provider(getEth())); 
+}
+
+run();
