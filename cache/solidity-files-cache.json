@@ -1,8 +1,8 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/bpiggot/frontend-masters/jpegdegens/contracts/HelloWorld.sol": {
-      "lastModificationDate": 1648586480471,
+    "/Users/ben/frontend-masters/jpegdegens/contracts/HelloWorld.sol": {
+      "lastModificationDate": 1648603192058,
       "contentHash": "bc3b2ceaf06b8993c1da42e48105d7c4",
       "sourceName": "contracts/HelloWorld.sol",
       "solcConfig": {
