@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/bpiggot/frontend-masters/jpegdegens/contracts/Counter.sol": {
-      "lastModificationDate": 1648684190715,
-      "contentHash": "c40a107ef66709846550b3f9fce5ff2d",
+      "lastModificationDate": 1649980720158,
+      "contentHash": "7125e6b07ac63afae83c5676bd25f93c",
       "sourceName": "contracts/Counter.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -106,6 +106,41 @@
       ],
       "artifacts": [
         "HelloWorld"
+      ]
+    },
+    "/Users/bpiggot/frontend-masters/jpegdegens/contracts/TestGas.sol": {
+      "lastModificationDate": 1649983733950,
+      "contentHash": "02c3c7dc1e125dc614cb9ee12697033c",
+      "sourceName": "contracts/TestGas.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TestGas"
       ]
     }
   }
