@@ -142,6 +142,41 @@
       "artifacts": [
         "TestGas"
       ]
+    },
+    "/Users/bpiggot/frontend-masters/jpegdegens/contracts/Hero.sol": {
+      "lastModificationDate": 1650412924900,
+      "contentHash": "8313225dae140ced0b7de34984215174",
+      "sourceName": "contracts/Hero.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Hero"
+      ]
     }
   }
 }
