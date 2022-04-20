@@ -144,8 +144,8 @@
       ]
     },
     "/Users/bpiggot/frontend-masters/jpegdegens/contracts/Hero.sol": {
-      "lastModificationDate": 1650412924900,
-      "contentHash": "8313225dae140ced0b7de34984215174",
+      "lastModificationDate": 1650497111594,
+      "contentHash": "6136198980d29456c6ac1a1a4217998f",
       "sourceName": "contracts/Hero.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -176,6 +176,43 @@
       ],
       "artifacts": [
         "Hero"
+      ]
+    },
+    "/Users/bpiggot/frontend-masters/jpegdegens/contracts/TestHero.sol": {
+      "lastModificationDate": 1650488093728,
+      "contentHash": "1b2d78738254a34de397ca15cf6fdf0e",
+      "sourceName": "contracts/TestHero.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Hero.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TestHero"
       ]
     }
   }
