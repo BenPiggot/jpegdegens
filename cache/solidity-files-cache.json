@@ -214,6 +214,82 @@
       "artifacts": [
         "TestHero"
       ]
+    },
+    "/Users/bpiggot/frontend-masters/jpegdegens/contracts/Fallback.sol": {
+      "lastModificationDate": 1650498381966,
+      "contentHash": "45e2fe255096cc04cbb1539fdf2e716a",
+      "sourceName": "contracts/Fallback.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../node_modules/hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Fallback",
+        "IFallback"
+      ]
+    },
+    "/Users/bpiggot/frontend-masters/jpegdegens/contracts/A.sol": {
+      "lastModificationDate": 1650499727066,
+      "contentHash": "90182b13acff6bd0959fa8f253723460",
+      "sourceName": "contracts/A.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../node_modules/hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "A",
+        "B"
+      ]
     }
   }
 }
